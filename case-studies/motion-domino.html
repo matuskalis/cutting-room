@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Domino Chain Reaction — Cutting Room</title>
+<meta name="description" content="A 15-second physics explainer for kids, animated in code with Remotion. Every frame is React.">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../">Cutting<span>&nbsp;/&nbsp;</span>Room</a>
+    <nav>
+      <a href="../#work">Work</a>
+      <a href="https://github.com/matuskalis/cutting-room">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<article class="case wrap">
+
+  <a class="back" href="../#work">&larr; All work</a>
+
+  <p class="mono" style="margin-top:26px">2026 · Motion</p>
+  <h1>Domino Chain Reaction</h1>
+  <p class="lede">
+    A fifteen-second physics explainer for young children: a tiny domino topples a bigger one, which topples a bigger one, until the last knocks a ball down a slide onto a seesaw. There is no video editor in this project — every frame is a React component rendered by Remotion.
+  </p>
+
+  <div class="meta">
+    <div><span class="mono">Role</span><strong>Design &amp; animation</strong></div>
+    <div><span class="mono">Tool</span><strong>Remotion (React)</strong></div>
+    <div><span class="mono">Output</span><strong>1080p MP4, 15s</strong></div>
+    <div><span class="mono">Audience</span><strong>Kids</strong></div>
+  </div>
+
+  <figure>
+    <video controls preload="metadata" playsinline poster="../assets/shots/motion-domino/01-poster.png" style="width:100%;display:block;border:1px solid var(--line);border-radius:14px">
+      <source src="../assets/shots/motion-domino/domino.mp4" type="video/mp4">
+      Your browser can't play this video. <a href="../assets/shots/motion-domino/domino.mp4">Download the MP4</a>.
+    </video>
+    <figcaption>Full 15-second render (re-encoded to 720p for the web)</figcaption>
+  </figure>
+
+  <h2>Designing for a five-year-old</h2>
+  <ul>
+    <li><strong>Faces on everything.</strong> The dominoes have eyes. It costs nothing and it turns a physics demo into characters falling over.</li>
+    <li><strong>Sound words as visuals.</strong> THUNK and ZOOM appear as comic bursts at the moment of impact, so the video reads with the sound off.</li>
+    <li><strong>One sentence at a time.</strong> A single caption bar at the bottom, never more than one line, replaced on each beat.</li>
+    <li><strong>Flat fills, heavy outlines.</strong> Thick navy strokes on saturated flats — legible on a phone at arm's length, which is where it will actually be watched.</li>
+  </ul>
+
+  <figure>
+    <img src="../assets/shots/motion-domino/02-start.png" alt="Opening frame: small dominoes with faces lined up on green grass under a blue sky">
+    <figcaption>Opening beat — smallest domino, establishing the rule</figcaption>
+  </figure>
+
+  <figure>
+    <img src="../assets/shots/motion-domino/03-finish.png" alt="Final frame of the chain reaction sequence">
+    <figcaption>Payoff — the chain resolves into the seesaw</figcaption>
+  </figure>
+
+  <h2>Why code, not an editor</h2>
+  <p>
+    Timing is data. Every beat lives in a single timings file, so re-cutting the whole video to a different rhythm is one edit and one re-render, not a session of dragging keyframes. That matters when the same structure has to be reissued at different lengths.
+  </p>
+
+</article>
+
+<footer>
+  <div class="wrap">
+    Built by Matúš Kališ · <a href="https://github.com/matuskalis/cutting-room">github.com/matuskalis/cutting-room</a>
+  </div>
+</footer>
+
+</body>
+</html>
