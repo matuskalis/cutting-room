@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LCI-SK — Cutting Room</title>
+<meta name="description" content="Large-carnivore conservation site for Slovakia, with an interactive occurrence map over 3,600+ field records.">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../">Cutting<span>&nbsp;/&nbsp;</span>Room</a>
+    <nav>
+      <a href="../#work">Work</a>
+      <a href="https://github.com/matuskalis/cutting-room">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<article class="case wrap">
+
+  <a class="back" href="../#work">&larr; All work</a>
+
+  <p class="mono" style="margin-top:26px">2026 · Shipped · Client work</p>
+  <h1>LCI-SK</h1>
+  <p class="lede">
+    Large-carnivore conservation in Slovakia — bear, wolf and lynx. Two jobs in one site: an editorial front that makes people care, and a genuine data tool behind it plotting thousands of field records on an interactive map.
+  </p>
+
+  <div class="meta">
+    <div><span class="mono">Role</span><strong>Design &amp; build</strong></div>
+    <div><span class="mono">Stack</span><strong>Next.js, Leaflet</strong></div>
+    <div><span class="mono">Scale</span><strong>20 routes · 93 components</strong></div>
+    <div><span class="mono">Languages</span><strong>Slovak, English</strong></div>
+  </div>
+
+  <figure>
+    <img src="../assets/shots/lci/01-hero.png" alt="Full-bleed photograph of a brown bear in grass, with a large serif headline in Slovak set over it">
+    <figcaption>Home — photography carries the fold; the type stays out of its way</figcaption>
+  </figure>
+
+  <h2>Two registers, one site</h2>
+  <p>
+    Conservation sites usually pick a side: campaign poster or database. This one needed both, so the design switches register deliberately rather than blending them.
+  </p>
+  <ul>
+    <li><strong>Editorial front.</strong> High-contrast serif over full-bleed wildlife photography, minimal chrome, no cards. The animal is the interface.</li>
+    <li><strong>Instrument behind.</strong> The map page drops the serif entirely — sans-serif, a filter rail, checkbox legends and a live record count.</li>
+    <li><strong>Earth palette.</strong> Brown and forest green pulled from the photography, so the UI never fights the images.</li>
+    <li><strong>Bilingual.</strong> Slovak default with an English toggle, both first-class.</li>
+  </ul>
+
+  <figure>
+    <img src="../assets/shots/lci/02-map.png" alt="Interactive occurrence map of Slovakia with hundreds of coloured pins, a search and year filter rail on the left, and a statistics panel">
+    <figcaption>Occurrence map — 746 records shown of 3,641 total, filtered by year and category</figcaption>
+  </figure>
+
+  <h2>The data problem</h2>
+  <p>
+    Records arrive from the state forestry service in half-yearly batches and are appended to the existing set — so the map is only as good as the import discipline behind it. Four categories (field signs, sightings, encounters, public reports) each get their own pin colour, and the year filter keeps a decade of data from collapsing into one unreadable cloud over the Carpathians.
+  </p>
+
+  <h2>Palette</h2>
+  <div class="palette">
+    <div class="chip"><div class="fill" style="background:#5f523b"></div><div class="label">#5f523b &nbsp;bark</div></div>
+    <div class="chip"><div class="fill" style="background:#44623c"></div><div class="label">#44623c &nbsp;forest</div></div>
+    <div class="chip"><div class="fill" style="background:#fafaf9"></div><div class="label">#fafaf9 &nbsp;paper</div></div>
+  </div>
+
+  <div class="note">
+    <p>Client work. Screenshots and write-up only — the site's content, photography and data belong to the client and are not republished here.</p>
+  </div>
+
+</article>
+
+<footer>
+  <div class="wrap">
+    Built by Matúš Kališ · <a href="https://github.com/matuskalis/cutting-room">github.com/matuskalis/cutting-room</a>
+  </div>
+</footer>
+
+</body>
+</html>
