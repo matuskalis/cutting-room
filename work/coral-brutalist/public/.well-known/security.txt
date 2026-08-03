@@ -1,0 +1,6 @@
+# Northbound Systems Security Policy
+Contact: mailto:security@northboundsystems.example
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://northboundsystems.example/.well-known/security.txt
+Policy: https://northboundsystems.example/privacy

@@ -1,0 +1,12 @@
+# Robots.txt for Northbound Systems
+# https://northboundsystems.example
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://northboundsystems.example/sitemap.xml
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /admin/

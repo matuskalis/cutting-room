@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coral Brutalist — Cutting Room</title>
+<meta name="description" content="A high-contrast coral-on-charcoal direction for a federal data-platform firm. Next.js 16, Tailwind v4, Framer Motion, GSAP.">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../">Cutting<span>&nbsp;/&nbsp;</span>Room</a>
+    <nav>
+      <a href="../#work">Work</a>
+      <a href="https://github.com/matuskalis/cutting-room">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<article class="case wrap">
+
+  <a class="back" href="../#work">&larr; All work</a>
+
+  <p class="mono" style="margin-top:26px">2026 · Direction not taken</p>
+  <h1>Coral Brutalist</h1>
+  <p class="lede">
+    A federal data-platform contractor needed a site that read as serious infrastructure rather than another navy-blue government vendor. This direction answers with one saturated coral field, charcoal instrument panels, and headline type set at the full width of the page.
+  </p>
+
+  <div class="meta">
+    <div><span class="mono">Role</span><strong>Design &amp; build</strong></div>
+    <div><span class="mono">Stack</span><strong>Next.js 16, Tailwind v4</strong></div>
+    <div><span class="mono">Motion</span><strong>Framer Motion, GSAP, Lenis</strong></div>
+    <div><span class="mono">Outcome</span><strong>Client chose another direction</strong></div>
+  </div>
+
+  <div class="note">
+    <p><strong>Two things stated plainly.</strong> This direction is heavily inspired by the Shift5 marketing site — the three-colour system and the oversized display type come from studying it, and the working files were built against reference captures of it. And because the original was client work, every name, metric, photo, logo and contact detail here has been replaced with an invented company, <em>Northbound Systems</em>. Nothing on these screens describes a real business.</p>
+  </div>
+
+  <figure>
+    <img src="../assets/shots/coral-brutalist/01-hero.png" alt="Hero: coral field, oversized black headline reading ATO-Ready Data Platforms in Weeks, Not Quarters, and a dark status panel on the right">
+    <figcaption>Home — the coral field carries the whole viewport; the status panel does the credibility work</figcaption>
+  </figure>
+
+  <h2>The idea</h2>
+  <p>
+    Most contractors in this space signal trust with navy, gold and a flag. That reads as safe and completely interchangeable. The bet here was the opposite: commit the entire viewport to one aggressive colour, then earn back the seriousness with typography and data density rather than with palette.
+  </p>
+  <ul>
+    <li><strong>One field, no gradient.</strong> Coral is a background, not an accent. Nothing sits on top of it except black type.</li>
+    <li><strong>Panels as instruments.</strong> The charcoal blocks are framed like readouts — mono labels, status dots, hairline dividers.</li>
+    <li><strong>Type at full width.</strong> The headline runs edge to edge at a clamp up to 10rem, so the page has one voice and it is loud.</li>
+    <li><strong>Mono for everything structural.</strong> Labels, stats and eyebrows are monospace; only body copy is sans.</li>
+  </ul>
+
+  <h2>Palette</h2>
+  <p>Three colours, no fourth. Every surface in the build resolves to one of these.</p>
+  <div class="palette">
+    <div class="chip"><div class="fill" style="background:#ff5841"></div><div class="label">#ff5841 &nbsp;accent</div></div>
+    <div class="chip"><div class="fill" style="background:#202020"></div><div class="label">#202020 &nbsp;dark</div></div>
+    <div class="chip"><div class="fill" style="background:#f5f5f5"></div><div class="label">#f5f5f5 &nbsp;light</div></div>
+  </div>
+
+  <figure>
+    <img src="../assets/shots/coral-brutalist/03-procurement.png" alt="Procurement page in the same system, showing dense contracting information in mono type">
+    <figcaption>Procurement — the densest page in the system, and the test of whether mono labels hold up at volume</figcaption>
+  </figure>
+
+  <figure>
+    <img src="../assets/shots/coral-brutalist/04-about.png" alt="About page with founder profile and large editorial type">
+    <figcaption>About — the one place the layout softens, to carry a person rather than a capability</figcaption>
+  </figure>
+
+  <h2>What I would keep</h2>
+  <p>
+    The status panel. It solves the hardest problem on a contractor site — proving current certifications without a wall of badge images — and it does it in a component that stays useful at any width. The full-bleed colour is the part that needs a client with nerve, which is fair enough; it is the reason this one stayed in the cutting room.
+  </p>
+
+  <h2>Source</h2>
+  <p>
+    Full source is in <a href="https://github.com/matuskalis/cutting-room/tree/main/work/coral-brutalist"><code>work/coral-brutalist/</code></a> — 28 static routes, builds clean on Next 16. Run it with <code>npm install &amp;&amp; npx next dev</code>.
+  </p>
+
+</article>
+
+<footer>
+  <div class="wrap">
+    Built by Matúš Kališ · <a href="https://github.com/matuskalis/cutting-room">github.com/matuskalis/cutting-room</a>
+  </div>
+</footer>
+
+</body>
+</html>

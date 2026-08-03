@@ -1,0 +1,14 @@
+<svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(15, 20)">
+    <line x1="0" y1="-12" x2="0" y2="12" stroke="#374151" stroke-width="2.5"/>
+    <line x1="-10.4" y1="-6" x2="10.4" y2="6" stroke="#374151" stroke-width="2.5"/>
+    <line x1="-10.4" y1="6" x2="10.4" y2="-6" stroke="#374151" stroke-width="2.5"/>
+    <circle cx="0" cy="-12" r="2" fill="#374151"/>
+    <circle cx="0" cy="12" r="2" fill="#374151"/>
+    <circle cx="10.4" cy="-6" r="2" fill="#374151"/>
+    <circle cx="-10.4" cy="6" r="2" fill="#374151"/>
+    <circle cx="10.4" cy="6" r="2" fill="#374151"/>
+    <circle cx="-10.4" cy="-6" r="2" fill="#374151"/>
+  </g>
+  <text x="36" y="26" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">Snowflake</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Fictional certification badge">
+  <circle cx="100" cy="100" r="94" fill="none" stroke="#ff5841" stroke-width="4" />
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#ff5841" stroke-width="1.5" opacity="0.5" />
+  <path d="M100 44 L138 66 L138 110 Q138 142 100 158 Q62 142 62 110 L62 66 Z" fill="none" stroke="#ff5841" stroke-width="3" />
+  <path d="M84 104 L96 116 L120 90" fill="none" stroke="#ff5841" stroke-width="5" stroke-linecap="square" />
+  <text x="100" y="182" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="3" fill="#ff5841">SAMPLE</text>
+</svg>

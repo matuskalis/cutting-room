@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 64" width="340" height="64" role="img" aria-label="Northbound Systems">
+  <g fill="none" stroke="#ff5841" stroke-width="4" stroke-linecap="square">
+    <path d="M12 50 L12 14 L40 50 L40 14" />
+  </g>
+  <path d="M54 14 L62 14 L62 50 L54 50 Z" fill="#ff5841" />
+  <text x="78" y="31" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700" letter-spacing="2.5" fill="currentColor">NORTHBOUND</text>
+  <text x="78" y="49" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="6.5" fill="#ff5841">SYSTEMS</text>
+</svg>
