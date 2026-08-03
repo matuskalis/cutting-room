@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Contract Archive — Cutting Room</title>
+<meta name="description" content="An AI assistant over a contract archive that answers in plain language and cites the exact clause. Concept demo on fictional data.">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../">Cutting<span>&nbsp;/&nbsp;</span>Room</a>
+    <nav>
+      <a href="../#work">Work</a>
+      <a href="https://github.com/matuskalis/cutting-room">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<article class="case wrap">
+
+  <a class="back" href="../#work">&larr; All work</a>
+
+  <p class="mono" style="margin-top:26px">2026 · Concept demo · Fictional data</p>
+  <h1>Smart Contract Archive</h1>
+  <p class="lede">
+    Ask a contract archive a question in plain Czech — "which contracts expire this quarter and have no AML clause?" — and get back the matching contracts with the exact paragraph highlighted. A working concept, built on eighteen invented contracts.
+  </p>
+
+  <div class="meta">
+    <div><span class="mono">Role</span><strong>Design &amp; build</strong></div>
+    <div><span class="mono">Type</span><strong>Product concept</strong></div>
+    <div><span class="mono">Data</span><strong>18 fictional contracts</strong></div>
+    <div><span class="mono">Language</span><strong>Czech</strong></div>
+  </div>
+
+  <figure>
+    <img src="../assets/shots/legalsystems/02-query.png" alt="Two-pane interface: query and result list on the left, full contract text on the right with one paragraph highlighted in amber">
+    <figcaption>A query resolved — six matches on the left, the cited paragraph highlighted on the right</figcaption>
+  </figure>
+
+  <h2>The design problem is trust, not search</h2>
+  <p>
+    Lawyers do not want a chatbot's summary of their contract. They want to be taken to the clause and shown it. So the interface never paraphrases: it answers with a count, a list, and a jump straight to the paragraph, highlighted in place.
+  </p>
+  <ul>
+    <li><strong>Four limits stated across the top.</strong> Read-only. Cites a source. Not legal advice. The user verifies the result. These are the objections, answered before the first query.</li>
+    <li><strong>Two panes, fixed roles.</strong> Left asks and lists; right shows the document. The document pane never becomes a chat.</li>
+    <li><strong>Citations are the interface.</strong> Each result carries "→ Čl. 4 odst. 1" — click it and the right pane scrolls to that article with an amber marker.</li>
+    <li><strong>Suggested queries as chips.</strong> Four real questions the archive can answer, so nobody has to guess the syntax.</li>
+    <li><strong>Risk shown as data, not colour alone.</strong> A missing AML clause appears as the word "chybí" in red inside an otherwise plain metadata grid.</li>
+  </ul>
+
+  <figure>
+    <img src="../assets/shots/legalsystems/01-hero.png" alt="Empty state of the same interface, with suggested query chips and an instruction in the right pane">
+    <figcaption>Empty state — the right pane explains what will appear there</figcaption>
+  </figure>
+
+  <h2>Palette</h2>
+  <div class="palette">
+    <div class="chip"><div class="fill" style="background:#1d4e7d"></div><div class="label">#1d4e7d &nbsp;navy</div></div>
+    <div class="chip"><div class="fill" style="background:#0e6b6b"></div><div class="label">#0e6b6b &nbsp;teal</div></div>
+    <div class="chip"><div class="fill" style="background:#f1f4f8"></div><div class="label">#f1f4f8 &nbsp;slate tint</div></div>
+    <div class="chip"><div class="fill" style="background:#fbf1d6"></div><div class="label">#fbf1d6 &nbsp;citation</div></div>
+  </div>
+
+  <div class="note">
+    <p>A concept, not a product. The page labels itself as an unofficial concept on fictional data, and the archive it queries is eighteen invented contracts — no real agreement, party or client document appears anywhere in it.</p>
+  </div>
+
+</article>
+
+<footer>
+  <div class="wrap">
+    Built by Matúš Kališ · <a href="https://github.com/matuskalis/cutting-room">github.com/matuskalis/cutting-room</a>
+  </div>
+</footer>
+
+</body>
+</html>
