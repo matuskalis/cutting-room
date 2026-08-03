@@ -28,6 +28,11 @@ Marketing sites, product surfaces, data tools and motion work. Some shipped to r
 | [Coral Brutalist](case-studies/coral-brutalist.html) | 2026 | Next.js 16, Tailwind v4, Framer Motion | Not shipped · source included |
 | [SoilScale](case-studies/soilscale.html) | 2026 | Next.js, Three.js | Client work · screenshots |
 | [ShipFourteen](case-studies/shipfourteen.html) | 2026 | Next.js | Shipped · own brand |
+| [Birdiez 2 Go](case-studies/birdiez2go.html) | 2026 | Static site | Shipped · screenshots |
+| [Awesome by Choice](case-studies/awesome-by-choice.html) | 2026 | Self-contained HTML | Shipped · screenshots |
+| [Grief Guides](case-studies/grief-guide.html) | 2026 | Next.js | Shipped · EN + SK |
+| [Dispatch Board](case-studies/dispecing.html) | 2026 | Static app | Concept · sample data |
+| [Smart Contract Archive](case-studies/legalsystems.html) | 2026 | Static app | Concept · fictional data |
 | [Domino Chain Reaction](case-studies/motion-domino.html) | 2026 | Remotion, React | Motion · video |
 
 ## Running an entry
