@@ -4,7 +4,7 @@ Web design and build work by [Matúš Kališ](https://github.com/matuskalis).
 
 **Gallery: https://matuskalis.github.io/cutting-room/**
 
-Marketing sites, product surfaces and rebuilds. Some shipped to real traffic, some were directions a client didn't take. Both are here, labelled honestly.
+Marketing sites, product surfaces, data tools and motion work. Some shipped to real traffic, some were directions a client didn't take. Both are here, labelled honestly.
 
 ## How this repo works
 
@@ -13,7 +13,7 @@ Marketing sites, product surfaces and rebuilds. Some shipped to real traffic, so
 | `index.html` | the gallery, served by GitHub Pages |
 | `case-studies/` | one page per entry |
 | `work/` | full source, for entries where publishing it is safe |
-| `assets/shots/` | screenshots |
+| `assets/shots/` | screenshots and video |
 
 **Client work is screenshots and write-ups only.** The content, copy and branding of a client site belong to the client, so it is not republished here.
 
@@ -23,7 +23,12 @@ Marketing sites, product surfaces and rebuilds. Some shipped to real traffic, so
 
 | Entry | Year | Stack | Status |
 |---|---|---|---|
-| [Coral Brutalist](case-studies/coral-brutalist.html) | 2026 | Next.js 16, Tailwind v4, Framer Motion, GSAP | Not shipped · source included |
+| [Tharseo IT](case-studies/tharseo-it.html) | 2026 | Next.js, GSAP, Lenis | Shipped · screenshots |
+| [LCI-SK](case-studies/lci.html) | 2026 | Next.js, Leaflet | Shipped · screenshots |
+| [Coral Brutalist](case-studies/coral-brutalist.html) | 2026 | Next.js 16, Tailwind v4, Framer Motion | Not shipped · source included |
+| [SoilScale](case-studies/soilscale.html) | 2026 | Next.js, Three.js | Client work · screenshots |
+| [ShipFourteen](case-studies/shipfourteen.html) | 2026 | Next.js | Shipped · own brand |
+| [Domino Chain Reaction](case-studies/motion-domino.html) | 2026 | Remotion, React | Motion · video |
 
 ## Running an entry
 
