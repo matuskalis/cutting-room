@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dispatch Board — Cutting Room</title>
+<meta name="description" content="A haulage dispatch board that answers one question: which truck is losing money today, and why. Concept demo on sample data.">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../">Cutting<span>&nbsp;/&nbsp;</span>Room</a>
+    <nav>
+      <a href="../#work">Work</a>
+      <a href="https://github.com/matuskalis/cutting-room">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<article class="case wrap">
+
+  <a class="back" href="../#work">&larr; All work</a>
+
+  <p class="mono" style="margin-top:26px">2026 · Concept demo · Sample data</p>
+  <h1>Dispatch Board</h1>
+  <p class="lede">
+    A control station for a small haulage fleet, built around a single question printed in the header: which truck isn't earning today, and why. Eight vehicles, a map of central Europe, and a panel that names the problem and the next action.
+  </p>
+
+  <div class="meta">
+    <div><span class="mono">Role</span><strong>Design &amp; build</strong></div>
+    <div><span class="mono">Type</span><strong>Product concept</strong></div>
+    <div><span class="mono">Domain</span><strong>Freight dispatch</strong></div>
+    <div><span class="mono">Language</span><strong>Slovak</strong></div>
+  </div>
+
+  <figure>
+    <img src="../assets/shots/dispecing/01-board.png" alt="Dispatch dashboard: fleet status counters across the top, a map of central Europe with vehicle pins on the left, and a stack of alert cards on the right">
+    <figcaption>Board — status counters, fleet map, and alerts that each end in a recommended action</figcaption>
+  </figure>
+
+  <h2>Every alert ends in a verb</h2>
+  <p>
+    Fleet software usually shows you a table and lets you work out the implication. This inverts it: each alert is three labelled lines — <em>Čo</em> (what), <em>Prečo</em> (why), <em>Krok</em> (next step) — so the dispatcher gets a diagnosis and an instruction rather than a data point.
+  </p>
+  <ul>
+    <li><strong>The headline problem is separated out.</strong> One red-bordered "Solve now" card sits above the alert list, naming the single worst thing happening right now.</li>
+    <li><strong>Counters as a filter bar.</strong> Five states across the top — total, driving, idle, loading, in service. The problematic one is highlighted amber and is the one you click.</li>
+    <li><strong>Severity as a word, not just a colour.</strong> Each alert carries a plain-language tag: burning margin, watch, normal.</li>
+    <li><strong>Three time horizons as tabs.</strong> Today by fleet, week by utilisation, routes by margin — the same data at the three intervals a dispatcher actually thinks in.</li>
+    <li><strong>Restrained map.</strong> Country fills are near-white so vehicle pins and route lines are the only saturated things on it.</li>
+  </ul>
+
+  <h2>Palette</h2>
+  <div class="palette">
+    <div class="chip"><div class="fill" style="background:#0e1520"></div><div class="label">#0e1520 &nbsp;ink</div></div>
+    <div class="chip"><div class="fill" style="background:#eab13a"></div><div class="label">#eab13a &nbsp;warning</div></div>
+    <div class="chip"><div class="fill" style="background:#e35a4a"></div><div class="label">#e35a4a &nbsp;critical</div></div>
+    <div class="chip"><div class="fill" style="background:#f7f9fc"></div><div class="label">#f7f9fc &nbsp;surface</div></div>
+  </div>
+
+  <div class="note">
+    <p>A concept, not a production system. The board labels itself as a demo on sample data — every vehicle, route, contract and figure in it is invented.</p>
+  </div>
+
+</article>
+
+<footer>
+  <div class="wrap">
+    Built by Matúš Kališ · <a href="https://github.com/matuskalis/cutting-room">github.com/matuskalis/cutting-room</a>
+  </div>
+</footer>
+
+</body>
+</html>
