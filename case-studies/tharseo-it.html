@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tharseo IT — Cutting Room</title>
+<meta name="description" content="Electric lime on deep navy for an Oracle Cloud partner. 32 routes, 133 components, Next.js with GSAP and Lenis.">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../">Cutting<span>&nbsp;/&nbsp;</span>Room</a>
+    <nav>
+      <a href="../#work">Work</a>
+      <a href="https://github.com/matuskalis/cutting-room">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<article class="case wrap">
+
+  <a class="back" href="../#work">&larr; All work</a>
+
+  <p class="mono" style="margin-top:26px">2026 · Shipped · Client work</p>
+  <h1>Tharseo IT</h1>
+  <p class="lede">
+    An Oracle Cloud partner selling into federal agencies and enterprise. The largest site in this collection — 32 routes and 133 components — built around one decision: electric lime on near-black navy, and nothing else competing for attention.
+  </p>
+
+  <div class="meta">
+    <div><span class="mono">Role</span><strong>Design &amp; build</strong></div>
+    <div><span class="mono">Stack</span><strong>Next.js, Tailwind</strong></div>
+    <div><span class="mono">Motion</span><strong>GSAP, Lenis</strong></div>
+    <div><span class="mono">Scale</span><strong>32 routes · 133 components</strong></div>
+  </div>
+
+  <figure>
+    <img src="../assets/shots/tharseo-it/01-hero.png" alt="Hero: lime headline reading Oracle Cloud for Federal and Enterprise over a dark navy dithered organic texture, with a four-metric bar beneath">
+    <figcaption>Home — dithered organic texture behind the type, metrics bar as the floor of the fold</figcaption>
+  </figure>
+
+  <h2>The decision</h2>
+  <p>
+    Enterprise cloud vendors converge on the same blue. The lime is the entire differentiator here, so it had to be rationed: it appears on exactly one word of the headline, the primary button, the eyebrow dot, and the metric numbers. Everywhere else is navy and white.
+  </p>
+  <ul>
+    <li><strong>Dithered texture, not gradient.</strong> The background is a halftone-dotted organic form — it reads as technical rather than decorative, and it survives compression.</li>
+    <li><strong>Metrics as the fold's floor.</strong> Four numbers close the hero. A buyer evaluating vendors gets the proof before scrolling.</li>
+    <li><strong>Monospace for anything that behaves like a label.</strong> Eyebrow, button text and metric captions; sans for headline and body.</li>
+    <li><strong>Rounded container inset from the viewport.</strong> The hero sits in a card with margin on all sides, so the dark never runs to the browser edge.</li>
+  </ul>
+
+  <h2>Palette</h2>
+  <div class="palette">
+    <div class="chip"><div class="fill" style="background:#C8F230"></div><div class="label">#C8F230 &nbsp;lime electric</div></div>
+    <div class="chip"><div class="fill" style="background:#A4C02C"></div><div class="label">#A4C02C &nbsp;lime 400</div></div>
+    <div class="chip"><div class="fill" style="background:#0B1E33"></div><div class="label">#0B1E33 &nbsp;navy 900</div></div>
+    <div class="chip"><div class="fill" style="background:#050D18"></div><div class="label">#050D18 &nbsp;navy 950</div></div>
+  </div>
+
+  <figure>
+    <img src="../assets/shots/tharseo-it/03-services.png" alt="Services page continuing the lime-on-navy system">
+    <figcaption>Services — where a 32-route information architecture has to stay navigable</figcaption>
+  </figure>
+
+  <figure>
+    <img src="../assets/shots/tharseo-it/02-full.png" alt="Full homepage scroll showing the sections in sequence">
+    <figcaption>Full homepage scroll</figcaption>
+  </figure>
+
+  <h2>Build note</h2>
+  <p>
+    GSAP and Lenis are loaded through dynamic imports only, so nothing in the motion layer blocks first paint. It also means neither shows up in a static import graph — worth knowing before anyone "cleans up" the dependency list.
+  </p>
+
+  <div class="note">
+    <p>Client work. Screenshots and write-up only — the site's content and branding belong to the client and are not republished here.</p>
+  </div>
+
+</article>
+
+<footer>
+  <div class="wrap">
+    Built by Matúš Kališ · <a href="https://github.com/matuskalis/cutting-room">github.com/matuskalis/cutting-room</a>
+  </div>
+</footer>
+
+</body>
+</html>
