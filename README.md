@@ -4,7 +4,7 @@ Web design and build work by [Matúš Kališ](https://github.com/matuskalis).
 
 **Gallery: https://matuskalis.github.io/cutting-room/**
 
-Marketing sites, product surfaces, data tools and motion work. Some shipped to real traffic, some were directions a client didn't take. Both are here, labelled honestly.
+Marketing sites, product surfaces and data tools. Some shipped to real traffic, some were directions a client didn't take. Both are here, labelled honestly.
 
 ## How this repo works
 
@@ -13,7 +13,7 @@ Marketing sites, product surfaces, data tools and motion work. Some shipped to r
 | `index.html` | the gallery, served by GitHub Pages |
 | `case-studies/` | one page per entry |
 | `work/` | full source, for entries where publishing it is safe |
-| `assets/shots/` | screenshots and video |
+| `assets/shots/` | screenshots |
 
 **Client work is screenshots and write-ups only.** The content, copy and branding of a client site belong to the client, so it is not republished here.
 
@@ -21,26 +21,24 @@ Marketing sites, product surfaces, data tools and motion work. Some shipped to r
 
 ## Entries
 
-| Entry | Year | Stack | Status |
-|---|---|---|---|
-| [Tharseo IT](case-studies/tharseo-it.html) | 2026 | Next.js, GSAP, Lenis | Shipped · screenshots |
-| [LCI-SK](case-studies/lci.html) | 2026 | Next.js, Leaflet | Shipped · screenshots |
-| [Coral Brutalist](case-studies/coral-brutalist.html) | 2026 | Next.js 16, Tailwind v4, Framer Motion | Not shipped · source included |
-| [SoilScale](case-studies/soilscale.html) | 2026 | Next.js, Three.js | Client work · screenshots |
-| [ShipFourteen](case-studies/shipfourteen.html) | 2026 | Next.js | Shipped · own brand |
-| [Birdiez 2 Go](case-studies/birdiez2go.html) | 2026 | Static site | Shipped · screenshots |
-| [Awesome by Choice](case-studies/awesome-by-choice.html) | 2026 | Self-contained HTML | Shipped · screenshots |
-| [Grief Guides](case-studies/grief-guide.html) | 2026 | Next.js | Shipped · EN + SK |
-| [Dispatch Board](case-studies/dispecing.html) | 2026 | Static app | Concept · sample data |
-| [Smart Contract Archive](case-studies/legalsystems.html) | 2026 | Static app | Concept · fictional data |
-| [Impossible Systems Lab](case-studies/motion-lab.html) | 2026 | Python simulation | Motion · 7-film series |
-| [Territory Clash](case-studies/motion-territory.html) | 2026 | Simulation | Motion · video |
-| [Dijkstra vs A*](case-studies/motion-dijkstra.html) | 2026 | Python | Motion · video |
-| [Optical Illusion Series](case-studies/motion-illusion.html) | 2026 | Generative | Motion · series |
-| [Drawing With Maths](case-studies/motion-math.html) | 2026 | Manim | Motion · video |
-| [Smart vs Random](case-studies/motion-maze.html) | 2026 | Python | Motion · video |
-| [Market Reel](case-studies/motion-sp1.html) | 2026 | Remotion, React | Motion · video |
-| [Domino Chain Reaction](case-studies/motion-domino.html) | 2026 | Remotion, React | Motion · video |
+| Entry | Stack | Status |
+|---|---|---|
+| [Tharseo IT](case-studies/tharseo-it.html) | Next.js, GSAP, Lenis | Shipped · client |
+| [LCI-SK](case-studies/lci.html) | Next.js, Leaflet | Shipped · client |
+| [SPPK](case-studies/sppk.html) | Next.js | Client rebuild |
+| [Vorex](case-studies/vorex.html) | Product site | Shipped |
+| [matuskalis.com](case-studies/matuskalis.html) | Personal site | Shipped |
+| [AI Consulting Microsite](case-studies/ai-matuskalis.html) | Microsite | Shipped |
+| [Coral Brutalist](case-studies/coral-brutalist.html) | Next.js 16, Tailwind v4 | Not shipped · **source included** |
+| [SoilScale](case-studies/soilscale.html) | Next.js, Three.js | Client work |
+| [ShipFourteen](case-studies/shipfourteen.html) | Next.js | Shipped · own brand |
+| [Birdiez 2 Go](case-studies/birdiez2go.html) | Static site | Shipped · client |
+| [Awesome by Choice](case-studies/awesome-by-choice.html) | Self-contained HTML | Shipped · client |
+| [Grief Guides](case-studies/grief-guide.html) | Next.js | Shipped · EN + SK |
+| [SitterBolt](case-studies/sitterbolt.html) | Marketplace | Concept |
+| [Learning Tools](case-studies/learning-tools.html) | Dark UI | SpeakSharp + Uni-Vise |
+| [Dispatch Board](case-studies/dispecing.html) | Static app | Concept · sample data |
+| [Smart Contract Archive](case-studies/legalsystems.html) | Static app | Concept · fictional data |
 
 ## Running an entry
 
