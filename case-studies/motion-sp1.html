@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market Reel — Cutting Room</title>
+<meta name="description" content="An animated performance chart built from real market data, designed to be readable on a phone at speed.">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../">Cutting<span>&nbsp;/&nbsp;</span>Room</a>
+    <nav>
+      <a href="../#work">Work</a>
+      <a href="../#motion">Motion</a>
+      <a href="https://github.com/matuskalis/cutting-room">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<article class="case wrap">
+
+  <a class="back" href="../#motion">&larr; All work</a>
+
+  <p class="mono" style="margin-top:26px">2026 · Motion</p>
+  <h1>Market Reel</h1>
+  <p class="lede">
+    A performance comparison animated from real market data — two series drawn against each other over a decade, with the date advancing as the lines grow. Built as a template: change the tickers in a config file and the whole reel re-renders.
+  </p>
+
+  <div class="meta">
+    <div><span class="mono">Role</span><strong>Design &amp; build</strong></div>
+    <div><span class="mono">Tool</span><strong>Remotion (React)</strong></div>
+    <div><span class="mono">Data</span><strong>Real historical prices</strong></div>
+    <div><span class="mono">Format</span><strong>1080×1920 vertical</strong></div>
+  </div>
+
+  <figure>
+    <video controls preload="metadata" playsinline poster="../assets/shots/motion-sp1/01-poster.png" style="width:100%;max-width:420px;display:block;border:1px solid var(--line);border-radius:14px">
+      <source src="../assets/shots/motion-sp1/sp1.mp4" type="video/mp4">
+      <a href="../assets/shots/motion-sp1/sp1.mp4">Download the MP4</a>.
+    </video>
+    <figcaption>Two series drawn against each other, date advancing with the line</figcaption>
+  </figure>
+
+  <h2>Chart design at phone size</h2>
+  <ul>
+    <li><strong>Two lines maximum.</strong> A comparison reel with four series is unreadable in vertical format. Two, each with its label riding at the end of its own line rather than in a legend.</li>
+    <li><strong>The date is the clock.</strong> Large type under the chart advancing with the animation — it tells the viewer where they are without an axis they'd have to squint at.</li>
+    <li><strong>Percentage axis, not price.</strong> Comparing two assets with wildly different absolute prices only works in relative terms, so the axis is percent change from a common start.</li>
+    <li><strong>Curve, not candles.</strong> Smoothed lines rather than OHLC bars. At this size candles are visual noise.</li>
+  </ul>
+
+  <h2>Template, not a one-off</h2>
+  <p>
+    The reel is parameterised — series, date range, colours and labels all live in one config file, and the price history is fetched rather than hand-entered. That makes a second reel a five-minute job instead of a rebuild, which is the only way this format is worth doing more than once.
+  </p>
+
+  <div class="note">
+    <p>An animation exercise using publicly available historical price data. It is not investment advice and takes no position on either asset.</p>
+  </div>
+
+</article>
+
+<footer>
+  <div class="wrap">
+    Built by Matúš Kališ · <a href="https://github.com/matuskalis/cutting-room">github.com/matuskalis/cutting-room</a>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -33,6 +33,13 @@ Marketing sites, product surfaces, data tools and motion work. Some shipped to r
 | [Grief Guides](case-studies/grief-guide.html) | 2026 | Next.js | Shipped · EN + SK |
 | [Dispatch Board](case-studies/dispecing.html) | 2026 | Static app | Concept · sample data |
 | [Smart Contract Archive](case-studies/legalsystems.html) | 2026 | Static app | Concept · fictional data |
+| [Impossible Systems Lab](case-studies/motion-lab.html) | 2026 | Python simulation | Motion · 7-film series |
+| [Territory Clash](case-studies/motion-territory.html) | 2026 | Simulation | Motion · video |
+| [Dijkstra vs A*](case-studies/motion-dijkstra.html) | 2026 | Python | Motion · video |
+| [Optical Illusion Series](case-studies/motion-illusion.html) | 2026 | Generative | Motion · series |
+| [Drawing With Maths](case-studies/motion-math.html) | 2026 | Manim | Motion · video |
+| [Smart vs Random](case-studies/motion-maze.html) | 2026 | Python | Motion · video |
+| [Market Reel](case-studies/motion-sp1.html) | 2026 | Remotion, React | Motion · video |
 | [Domino Chain Reaction](case-studies/motion-domino.html) | 2026 | Remotion, React | Motion · video |
 
 ## Running an entry
